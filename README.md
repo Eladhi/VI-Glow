@@ -3,7 +3,7 @@ PyTorch code for our paper: "Color Visual Illusions: A Statistics-based Computat
 
 (( Very soon... ))
 
-![method](images/method.png) <!-- .element width="200" -->
+![method](images/method.png) <!-- .element width="20" -->
 
 # Usage
 
