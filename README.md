@@ -21,6 +21,12 @@ This implementation uses *torchvision.datasets.ImageFolder*. Therefore, the imag
 |      +-- *.png
 |   +-- <class_folder>
 |      +-- *.png
+
+<dataset_folder>
+|--- <class_folder>
+    |--- *.png
+|--- <class_folder>
+    |--- *.png
 ```
 
 
