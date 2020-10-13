@@ -12,11 +12,13 @@ pip3 install -r requirements.txt
 
 **Prepare your data**
 Download an external dataset, i.e. [Places](http://places2.csail.mit.edu/download.html).
+
 This implementation uses torchvision.datasets.ImageFolder. Therefore, the images should be arranges as follows:
 
+```
 .
 +-- <dataset_folder>
-|   +-- <class folder?
+|   +-- <class folder>
 |.     +-- *.png
 +-- _drafts
 |   +-- begin-with-the-crazy-ideas.textile
@@ -34,21 +36,6 @@ This implementation uses torchvision.datasets.ImageFolder. Therefore, the images
 |   +-- members.yml
 +-- _site
 +-- index.html
+```
 
-```
-+ dataset folder
-  + class 1
-    + image 1
-    + image 2
-    ...
-  + class 2
-    + image 1
-    + image 2
-    ...
-  ...
-  + class N
-    + image 1
-    + image 2
-    ...
-```
 
