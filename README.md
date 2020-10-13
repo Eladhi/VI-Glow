@@ -19,9 +19,9 @@ This implementation uses `torchvision.datasets.ImageFolder`. Therefore, the imag
 ```
 +-- <dataset_folder>
 |   +-- <class_folder>
-|      +-- *.png
+|   |   +-- *.png
 |   +-- <class_folder>
-|      +-- *.png
+|   |   +-- *.png
 ```
 
 **Training**
@@ -64,4 +64,5 @@ We hope you find our work helpful for your research.
 
 # Acknoeledgements
 This project uses source files of [corenel/pytorch-glow](https://github.com/corenel/pytorch-glow).
-We also mention the official repository of [Glow](https://github.com/openai/glow), by OpenAI.
+
+We also acknowledge the official repository of [Glow](https://github.com/openai/glow), by OpenAI.
