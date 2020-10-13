@@ -3,6 +3,8 @@ PyTorch code for our paper: "Color Visual Illusions: A Statistics-based Computat
 
 (( Very soon... ))
 
+![method](images/method.png)
+
 # Usage
 
 **Install Requirements**
