@@ -36,7 +36,7 @@ python train.py [profile]
 
 1. Make a folder with a sequence of input images (structure of `torchvision.datasets.ImageFolder`)
 2. Prepare a profile file (such as `profile/patch16_graph.json`)
-3. Run the training script:
+3. Run the script:
 ```
 python image_patch_graph.py [profile] --output_path <output_folder> --var_name <X label, i.e. Hue>
 ```
@@ -44,7 +44,7 @@ python image_patch_graph.py [profile] --output_path <output_folder> --var_name <
 **Generate Likelihood Heatmap**
 
 1. Prepare a profile file (such as `profile/patch16_heatmap.json`)
-2. Run the training script:
+2. Run the script:
 ```
 python image_heatmap.py [profile] --output_path <output_folder>
 ```
@@ -53,7 +53,7 @@ python image_heatmap.py [profile] --output_path <output_folder>
 
 1. Generate a mask for your image (it should have the same name as the image but located in another folder). 
 2. Prepare a profile file (such as `profile/patch16_manipulation.json`)
-3. Run the training script:
+3. Run the script:
 ```
 python image_heatmap.py [profile] --output_path <output_folder> --mask_folder <mask_folder>
 ```
