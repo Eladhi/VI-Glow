@@ -5,9 +5,11 @@ Code for our paper: "Color Visual Illusions: A Statistics-based Computational Mo
 
 # Usage
 
-## Install Requirements
-  pip3 install -r requirements.txt
+**Install Requirements**
+'''
+pip3 install -r requirements.txt
+'''
 
-## Prepare your data
+**Prepare your data**
 Download an external dataset, i.e. [Places](http://places2.csail.mit.edu/download.html).
 
