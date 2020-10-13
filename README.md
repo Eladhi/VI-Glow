@@ -62,7 +62,9 @@ python image_heatmap.py [profile] --output_path <output_folder> --mask_folder <m
 
 # Citation
 We hope you find our work helpful for your research.
-
+```
+(bibtex reference will be added soon)
+```
 
 # Acknoeledgements
 This project uses source files of [corenel/pytorch-glow](https://github.com/corenel/pytorch-glow).
