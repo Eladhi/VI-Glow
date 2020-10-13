@@ -11,9 +11,10 @@ pip3 install -r requirements.txt
 ```
 
 **Prepare your data**
+
 Download an external dataset, i.e. [Places](http://places2.csail.mit.edu/download.html).
 
-This implementation uses *torchvision.datasets.ImageFolder*. Therefore, the images should be arranges as follows:
+This implementation uses `torchvision.datasets.ImageFolder`. Therefore, the images should be arranges as follows:
 
 ```
 +-- <dataset_folder>
@@ -21,12 +22,8 @@ This implementation uses *torchvision.datasets.ImageFolder*. Therefore, the imag
 |      +-- *.png
 |   +-- <class_folder>
 |      +-- *.png
-
-<dataset_folder>
-|--- <class_folder>
-    |--- *.png
-|--- <class_folder>
-    |--- *.png
 ```
 
+**Training**
 
+1. Prepare a profile file (such as `profile/patch16.json`)
