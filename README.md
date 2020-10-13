@@ -14,7 +14,7 @@ pip3 install -r requirements.txt
 
 Download an external dataset, i.e. [Places](http://places2.csail.mit.edu/download.html).
 
-This implementation uses `torchvision.datasets.ImageFolder`. Therefore, the images should be arranges as follows:
+This implementation uses `torchvision.datasets.ImageFolder`. Therefore, the images should be arranged as follows:
 
 ```
 +-- <dataset_folder>
@@ -27,3 +27,41 @@ This implementation uses `torchvision.datasets.ImageFolder`. Therefore, the imag
 **Training**
 
 1. Prepare a profile file (such as `profile/patch16.json`)
+2. Run the training script:
+```
+python train.py [profile]
+```
+
+**Generate Likelihood Graphs**
+
+1. Make a folder with a sequence of input images (structure of `torchvision.datasets.ImageFolder`)
+2. Prepare a profile file (such as `profile/patch16_graph.json`)
+3. Run the training script:
+```
+python image_patch_graph.py [profile] --output_path <output_folder> --var_name <X label, i.e. Hue>
+```
+
+**Generate Likelihood Heatmap**
+
+1. Prepare a profile file (such as `profile/patch16_heatmap.json`)
+2. Run the training script:
+```
+python image_heatmap.py [profile] --output_path <output_folder>
+```
+
+**Manipulate Images**
+
+1. Generate a mask for your image (it should have the same name as the image but located in another folder). 
+2. Prepare a profile file (such as `profile/patch16_manipulation.json`)
+3. Run the training script:
+```
+python image_heatmap.py [profile] --output_path <output_folder> --mask_folder <mask_folder>
+```
+
+# Citation
+We hope you find our work helpful for your research.
+
+
+# Acknoeledgements
+This project uses source files of [corenel/pytorch-glow](https://github.com/corenel/pytorch-glow).
+We also mention the official repository of [Glow](https://github.com/openai/glow), by OpenAI.
