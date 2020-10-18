@@ -65,7 +65,7 @@ We hope you find our work helpful for your research.
 (bibtex reference will be added soon)
 ```
 
-# Acknoeledgements
+# Acknowledgements
 This project uses source files of [corenel/pytorch-glow](https://github.com/corenel/pytorch-glow).
 
 We also acknowledge the official repository of [Glow](https://github.com/openai/glow), by OpenAI.
