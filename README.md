@@ -31,6 +31,7 @@ This implementation uses `torchvision.datasets.ImageFolder`. Therefore, the imag
 ```
 python train.py [profile]
 ```
+You can download a pretrained model from here (soon).
 
 **Generate Likelihood Graphs**
 
