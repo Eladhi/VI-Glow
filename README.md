@@ -1,7 +1,7 @@
 # VI-Glow
 PyTorch code for our paper: "Color Visual Illusions: A Statistics-based Computational Model", NeurIPS 2020
 
-Preprint version ([ArXiv](https://arxiv.org/abs/2005.08772)).
+Preprint version on [ArXiv](https://arxiv.org/abs/2005.08772).
 
 ![method](images/method.png)
 
