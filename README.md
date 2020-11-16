@@ -64,7 +64,13 @@ python image_heatmap.py [profile] --output_path <output_folder> --mask_folder <m
 # Citation
 We hope you find our work helpful for your research.
 ```
-(bibtex reference will be added soon)
+@article{hirsch2020color,
+  title={Color Visual Illusions: A Statistics-based Computational Model},
+  author={Hirsch, Elad and Tal, Ayellet},
+  journal={Advances in Neural Information Processing Systems},
+  volume={33},
+  year={2020}
+}
 ```
 
 # Acknowledgements
