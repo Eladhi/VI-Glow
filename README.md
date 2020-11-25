@@ -62,7 +62,9 @@ python image_heatmap.py [profile] --output_path <output_folder> --mask_folder <m
 ```
 
 # Citation
-We hope you find our work helpful for your research.
+We hope you find our work helpful for your research. 
+
+If you are using our code, please consider citing our paper.
 ```
 @article{hirsch2020color,
   title={Color Visual Illusions: A Statistics-based Computational Model},
