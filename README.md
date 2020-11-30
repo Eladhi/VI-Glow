@@ -33,7 +33,7 @@ This implementation uses `torchvision.datasets.ImageFolder`. Therefore, the imag
 ```
 python train.py [profile]
 ```
-You can download a pretrained model from here (soon).
+You can download a pretrained model from [here](https://cgm.technion.ac.il/Computer-Graphics-Multimedia/Software/VIGlow/pretrained_p16.pth).
 
 **Generate Likelihood Graphs**
 
